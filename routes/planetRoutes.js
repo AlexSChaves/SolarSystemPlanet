@@ -6,3 +6,5 @@ route.get('/planets/', planetController.getAll);
 route.get('/planet/:id', planetController.findById);
 
 module.exports = route;
+
+//teste
