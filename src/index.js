@@ -14,3 +14,5 @@ app.use(express.json());
 app.use(route);
 
 app.listen(PORT, () => console.log(`Ouvindo na Porta ${PORT}`));
+
+module.exports = app;
